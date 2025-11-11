@@ -3,6 +3,12 @@
 
 Campus Connect is a full-stack web application built to streamline communication between a college placement cell (Admins) and the student body. It provides a robust, real-time platform for managing and disseminating placement-related information, ensuring students are always informed and well-prepared.
 
+# You can do a sample check of the project from the below link - 
+projectcampusconnect.netlify.app
+
+**Admin Login:** `admin@example.com` / `password123`
+**Student Login:** `student@example.com` / `password123`
+
 ## Note - Please expect the application to have delays as the firebase database maybe deleted by Gemeini sometimes.
 ============================================================================================================================
 ## Note - If you want to resue the application then replace the firebase details according to your project details and also after cloning the project create a .env and .env.local tiles and paste the following -
@@ -66,7 +72,7 @@ Security: Next.js automatically prevents files ending in .local from ever being 
 *   **Student:** Enrolled students. They can register for their specific course, log in to view updates, and manage their profile.
 
 ### 2. Live Demo
-*(This section can be updated with a link to your deployed application)*
+*projectcampusconnect.netlify.app*
 
 **Admin Login:** `admin@example.com` / `password123`
 **Student Login:** `student@example.com` / `password123`
