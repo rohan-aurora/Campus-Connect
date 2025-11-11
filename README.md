@@ -6,8 +6,9 @@ Campus Connect is a full-stack web application built to streamline communication
 # You can do a sample check of the project from the below link - 
 projectcampusconnect.netlify.app
 
-**Admin Login:** `admin@example.com` / `password123`
-**Student Login:** `student@example.com` / `password123`
+**Admin Login:** `admin@example.com` / `password@123`
+**Admin Signup Code:** ADMIN_CODE = "ADMIN123x"
+**Student Login:** `student@example.com` / `password@123`
 
 ## Note - Please expect the application to have delays as the firebase database maybe deleted by Gemeini sometimes.
 ============================================================================================================================
