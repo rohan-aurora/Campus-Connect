@@ -40,6 +40,8 @@ Security: Next.js automatically prevents files ending in .local from ever being 
 # *** In simple the .env and .en.local files are sensitive files which contains your API keys and your account credentials used to send notitfications and cannot be uploade in the repository.***
 # *** In .env file place your GEMINI_API_KEY="your_gemini_api_key" and in .env.local file place your account credentials GMAIL_EMAIL="your-email@gmail.com" GMAIL_APP_PASSWORD="your_gmail_app_password" ***
 
+# Since this repo is missing the .env and .env.local files, the project may not run as expected while using the pages, but will run successfully in local environment.
+
 ============================================================================================================================
 
 ## Table of Contents
