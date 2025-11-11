@@ -78,7 +78,7 @@ export default function AdminDashboardLayout({
                 </svg>
               </Link>
             </Button>
-            <h2 className="text-lg font-semibold tracking-tight font-headline">HireUp Admin</h2>
+            <h2 className="text-lg font-semibold tracking-tight font-headline">Campus Connect Admin</h2>
           </div>
         </SidebarHeader>
         <SidebarContent>

@@ -123,7 +123,7 @@ export default function StudentDashboardLayout({
                 </svg>
               </Link>
             </Button>
-            <h2 className="text-lg font-semibold tracking-tight font-headline">HireUp Student</h2>
+            <h2 className="text-lg font-semibold tracking-tight font-headline">Campus Connect Student</h2>
           </div>
         </SidebarHeader>
         <SidebarContent>

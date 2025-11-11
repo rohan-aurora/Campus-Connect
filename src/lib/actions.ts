@@ -34,7 +34,7 @@ async function sendEmail(
 
   try {
     await transporter.sendMail({
-      from: `"Hire Up" <${GMAIL_EMAIL}>`,
+      from: `"Campus Connect" <${GMAIL_EMAIL}>`,
       to,
       subject,
       html: htmlContent,

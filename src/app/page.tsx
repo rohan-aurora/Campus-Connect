@@ -9,7 +9,7 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center justify-center bg-background p-8">
       <div className="text-center mb-12">
         <h1 className="text-5xl font-bold font-headline text-primary tracking-tight">
-          Welcome to Hire Up
+          Welcome to Campus Connect
         </h1>
         <p className="mt-4 text-lg text-muted-foreground">
           Stay connected, stay ahead.

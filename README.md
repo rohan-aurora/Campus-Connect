@@ -1,7 +1,7 @@
 
-# Hire Up - Placement Cell Communication Portal
+# Campus Connect - Placement Cell Communication Portal
 
-Hire Up is a full-stack web application built to streamline communication between a college placement cell (Admins) and the student body. It provides a robust, real-time platform for managing and disseminating placement-related information, ensuring students are always informed and well-prepared.
+Campus Connect is a full-stack web application built to streamline communication between a college placement cell (Admins) and the student body. It provides a robust, real-time platform for managing and disseminating placement-related information, ensuring students are always informed and well-prepared.
 
 ## Table of Contents
 1. [Project Overview](#1-project-overview)
