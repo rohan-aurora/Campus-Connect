@@ -3,6 +3,45 @@
 
 Campus Connect is a full-stack web application built to streamline communication between a college placement cell (Admins) and the student body. It provides a robust, real-time platform for managing and disseminating placement-related information, ensuring students are always informed and well-prepared.
 
+## Note - Please expect the application to have delays as the firebase database maybe deleted by Gemeini sometimes.
+============================================================================================================================
+## Note - If you want to resue the application then replace the firebase details according to your project details and also after cloning the project create a .env and .env.local tiles and paste the following -
+
+# For .env.local file -  Now, to answer your question. The .env and .env.local files are not files you find; they are files you create in the root directory of your project to securely store environment variables like API keys and passwords.
+
+Your project is already configured to use these files, but they are not (and should not be) committed to Git. Here is how you should set them up:
+Locate Your Project's Root Directory: This is the main folder for your project, where files like package.json and next.config.ts are located.
+Create a .env.local File: In that root directory, create a new file and name it exactly: .env.local
+Add Your Secrets to .env.local: Open the new .env.local file and paste your credentials into it. It should look like this, but with your newly generated keys:
+
+# This key is for Google's Generative AI services
+GEMINI_API_KEY="YOUR_NEW_GEMINI_API_KEY"
+
+# Gmail account used to send notifications
+# Use your NEWLY generated "App Password"
+GMAIL_EMAIL="your-email@gmail.com"
+GMAIL_APP_PASSWORD="your_new_16_character_app_password"
+
+Why .env.local?
+
+Security: Next.js automatically prevents files ending in .local from ever being sent to version control (GitHub). This is the correct place to store your secret keys for local development.
+.env vs. .env.local: The .env file can be used for default, non-secret variables that might be shared across environments. For anything secret, always use .env.local.
+
+# Example for .env.local:
+# Go to Google AI Studio: https://makersuite.google.com/app/apikey
+# GEMINI_API_KEY="your_gemini_api_key"
+
+# Gmail account used to send notifications
+# For this to work, you need to generate an "App Password" for your Google Account.
+# See: https://support.google.com/accounts/answer/185833
+# GMAIL_EMAIL="your-email@gmail.com"
+# GMAIL_APP_PASSWORD="your_gmail_app_password
+
+# *** In simple the .env and .en.local files are sensitive files which contains your API keys and your account credentials used to send notitfications and cannot be uploade in the repository.***
+# *** In .env file place your GEMINI_API_KEY="your_gemini_api_key" and in .env.local file place your account credentials GMAIL_EMAIL="your-email@gmail.com" GMAIL_APP_PASSWORD="your_gmail_app_password" ***
+
+============================================================================================================================
+
 ## Table of Contents
 1. [Project Overview](#1-project-overview)
 2. [Live Demo](#2-live-demo)
